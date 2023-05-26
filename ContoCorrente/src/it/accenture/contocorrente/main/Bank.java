@@ -25,6 +25,7 @@ public class Bank {
 		conti.add(ca1);
 		conti.add(ca2);
 		conti.add(ca3);
+		//aggiunto per testare flusso di lavoro su github
 		Collections.sort(conti);
 		c1.addCurrentAccount(ca2);
 		c1.addCurrentAccount(ca3);
