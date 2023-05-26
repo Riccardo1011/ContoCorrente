@@ -12,7 +12,7 @@ import it.accenture.contocorrente.model.Gender;
 public class MemoryClientRepository implements AbstractClientRepository {
 	
 	private static int IDGenerator= 1;
-	private HashMap<Integer, Client> data= new HashMap<>();
+	protected HashMap<Integer, Client> data= new HashMap<>();
 	
 	public MemoryClientRepository() {
 		Client c= new Client("Riccardo", "Piccininno", "Via Galliano", LocalDate.now(), Gender.MALE);
